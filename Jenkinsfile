@@ -10,7 +10,7 @@ pipeline {
 
     agent {
         docker {
-            image 'mcr.microsoft.com/dotnet/sdk:3.1' 
+            image 'mcr.microsoft.com/dotnet/core/sdk:3.1' 
             args '-v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker'
         }
     }
