@@ -1,4 +1,4 @@
-### Jenkins 流水线 Demo
+### Jenkins  Demo
 
-作者：痴者工良
+ 
 
